@@ -127,6 +127,8 @@
       <elementValue elementRef="newColumn1" value="&quot;US&quot;"/>
       <elementValue elementRef="newColumn" value="&quot;Aadya&quot;"/>
       <elementValue elementRef="newColumn1" value="&quot;UK&quot;"/>
+      <elementValue elementRef="newColumn" value="&quot;Advik&quot;"/>
+      <elementValue elementRef="newColumn1" value="&quot;Australia&quot;"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
