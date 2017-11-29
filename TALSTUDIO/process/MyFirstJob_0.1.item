@@ -131,8 +131,6 @@
       <elementValue elementRef="newColumn1" value="&quot;Australia&quot;"/>
       <elementValue elementRef="newColumn" value="&quot;Advika&quot;"/>
       <elementValue elementRef="newColumn1" value="&quot;Iceland&quot;"/>
-      <elementValue elementRef="newColumn" value="&quot;Dyuthi&quot;"/>
-      <elementValue elementRef="newColumn1" value="&quot;Norway&quot;"/>
       <elementValue elementRef="newColumn" value="&quot;Jenkins&quot;"/>
       <elementValue elementRef="newColumn1" value="&quot;Created&quot;"/>
     </elementParameter>
