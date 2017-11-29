@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore">
+  <model:JobletProcess>
+    <parameters>
+      <routinesParameter id="_SuZxoNQJEeeM49Yuo8iHwA" name="DQTechnical"/>
+      <routinesParameter id="_SsyoEtQJEeeM49Yuo8iHwA" name="DataMasking"/>
+      <routinesParameter id="_Sujio9QJEeeM49Yuo8iHwA" name="DataOperation"/>
+      <routinesParameter id="_SuG2tNQJEeeM49Yuo8iHwA" name="DataQualityDependencies"/>
+      <routinesParameter id="_SuG2sNQJEeeM49Yuo8iHwA" name="DataQuality"/>
+      <routinesParameter id="_SuQAoNQJEeeM49Yuo8iHwA" name="DqStringHandling"/>
+      <routinesParameter id="_SusskNQJEeeM49Yuo8iHwA" name="Mathematical"/>
+      <routinesParameter id="_Su3rsNQJEeeM49Yuo8iHwA" name="Numeric"/>
+      <routinesParameter id="_Su6H89QJEeeM49Yuo8iHwA" name="Relational"/>
+      <routinesParameter id="_SuZxpNQJEeeM49Yuo8iHwA" name="SQLike"/>
+      <routinesParameter id="_SvD48NQJEeeM49Yuo8iHwA" name="StringHandling"/>
+      <routinesParameter id="_SvNp8NQJEeeM49Yuo8iHwA" name="TalendDataGenerator"/>
+      <routinesParameter id="_SvNp9NQJEeeM49Yuo8iHwA" name="TalendDate"/>
+      <routinesParameter id="_SvWz49QJEeeM49Yuo8iHwA" name="TalendString"/>
+    </parameters>
+  </model:JobletProcess>
+  <TalendProperties:ByteArray/>
+</xmi:XMI>
