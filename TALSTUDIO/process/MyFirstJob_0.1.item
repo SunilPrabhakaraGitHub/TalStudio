@@ -133,10 +133,6 @@
       <elementValue elementRef="newColumn1" value="&quot;Iceland&quot;"/>
       <elementValue elementRef="newColumn" value="&quot;Dyuthi&quot;"/>
       <elementValue elementRef="newColumn1" value="&quot;Norway&quot;"/>
-      <elementValue elementRef="newColumn" value="&quot;newLine&quot;"/>
-      <elementValue elementRef="newColumn1" value="&quot;newline2&quot;"/>
-      <elementValue elementRef="newColumn" value="&quot;newLine&quot;"/>
-      <elementValue elementRef="newColumn1" value="&quot;G&quot;"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
