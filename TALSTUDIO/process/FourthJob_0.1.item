@@ -229,7 +229,7 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;output_row.Folders = context.DirToRead+&quot;agent\\TalendJobServersFiles\\jobexecutions\\logs\\&quot;+input_row.Folders+&quot;\\stdOutErr_&quot;+input_row.Folders+&quot;.log&quot;;&#xA;System.out.println(&quot;File to be read :&quot;+output_row.Folders);&#xD;&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;output_row.Folders = context.DirToRead+&quot;agent\\TalendJobServersFiles\\jobexecutions\\logs\\&quot;+input_row.Folders+&quot;\\stdOutErr_&quot;+input_row.Folders+&quot;.log&quot;;&#xA;//System.out.println(&quot;File to be read :&quot;+output_row.Folders);&#xD;&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="LABEL" value="AssignFolder"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
