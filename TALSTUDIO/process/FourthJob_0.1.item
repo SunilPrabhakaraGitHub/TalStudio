@@ -229,7 +229,7 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;output_row.Task = input_row.Task;&#xD;&#xA;output_row.Job = input_row.Job;&#xD;&#xA;output_row.Project = input_row.Project;&#xD;&#xA;output_row.LoggingLevel = input_row.LoggingLevel;&#xD;&#xA;output_row.Folders = input_row.Folders;&#xD;&#xA;output_row.TaskStatus = input_row.TaskStatus;&#xA;context.FolderToRead=input_row.Folders;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;//output_row.Task = input_row.Task;&#xD;&#xA;//output_row.Job = input_row.Job;&#xD;&#xA;//output_row.Project = input_row.Project;&#xD;&#xA;//output_row.LoggingLevel = input_row.LoggingLevel;&#xD;&#xA;//output_row.Folders = input_row.Folders;&#xD;&#xA;//output_row.TaskStatus = input_row.TaskStatus;&#xA;context.FolderToRead=input_row.Folders;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="LABEL" value="AssignFolder"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
