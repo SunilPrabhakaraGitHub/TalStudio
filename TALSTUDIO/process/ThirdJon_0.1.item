@@ -4,6 +4,7 @@
     <contextParameter comment="" name="timest" prompt="timest?" promptNeeded="false" type="id_Date" value=""/>
   </context>
   <parameters>
+    <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" value="true" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
@@ -113,7 +114,7 @@
     <routinesParameter id="_SvNp9NQJEeeM49Yuo8iHwA" name="TalendDate"/>
     <routinesParameter id="_SvWz49QJEeeM49Yuo8iHwA" name="TalendString"/>
   </parameters>
-  <node componentName="tFileTouch" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="224">
+  <node componentName="tFileTouch" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileTouch_1" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Talend/6.2.1/Studio/workspace/ThirdTouch.txt&quot;"/>
     <elementParameter field="CHECK" name="CREATEDIR" value="false"/>
@@ -126,7 +127,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="896" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Job Name :&quot;+jobName);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Job Name :&quot;+jobName);&#xA;global"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
